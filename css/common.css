@@ -1,0 +1,158 @@
+body{
+	font-family: 'Raleway', sans-serif;
+	font-size:13px;
+}
+
+#social_header{
+	background-color:#222222;
+	color:#ccc;
+}
+#welcome_msg{
+	padding:0.8em;
+}
+
+#email{
+	color:white;
+}
+
+#cart_amount{
+	color:#FFB300;
+}
+
+.social{
+	color: #ccc;
+}
+
+.social:hover{
+	color: #FFB300;
+}
+
+#all div{
+	border-right: 1px solid #444444;
+	padding:0.8em;
+}
+
+
+#logo_header{
+	background: url(../images/header_line.png) repeat-x 0px 0px;
+	background-color:#333333;
+	padding: 2em;
+	
+}
+
+.orange{
+	color: #FFB300;
+}
+
+.white{
+	color:white;
+}
+
+.lg_icon{
+	font-size:3.5em !important;
+}
+
+.md_font{
+	font-size:1.2em !important;
+}
+
+.lg_font{
+	font-size:1.4em !important;
+}
+.xl_font{
+	font-size:3.4em !important;
+	font-family: 'Oswald', sans-serif;
+}
+
+#tollfree{
+	text-align:right;
+	border-left: 1px solid #cccccc;
+	
+}
+.full{
+	width:100%;
+	font-size:1.5em;
+	font-family: 'Oswald', sans-serif;
+	text-align:right;
+}
+
+#myNavbar li a{
+	color: black;
+	font-size:1.2em;
+}
+
+#myNavbar li a:hover{
+	color: #FFB300;
+	border-top:2px solid #FFB300;
+	background-color:white;
+}
+
+#search_box{
+	background-color:#FFB300;
+	padding-left: 1em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	font-size:1.5em;
+}
+
+#search_box input{
+	width:75%;
+	padding-left:0.4em;
+	padding-top:0.3em;
+	padding-bottom:0.3em;
+}
+
+
+#search_box button{
+	background-color:#333333;
+	color:white;
+	padding-top:0.6em;
+	padding-bottom:0.6em;
+}
+
+.carousel-caption h3{
+	background-color:rgba(51,51,51,0.95);
+	color:white;
+	padding: 15px;
+	font-size:4em;
+	font-family: 'Oswald', sans-serif;
+	display:inline-block; 
+	position:absolute;
+	left:0px;
+	bottom:150px;
+}
+
+.carousel-caption p{
+	background-color:rgba(51,51,51,0.95);
+	color:white;
+	padding: 10px;
+}
+
+#tag_line{
+	background-color:#FFB300;
+	font-size:1.5em;
+	height:90px;
+}
+
+#white{
+	width: 200px;
+	height:90px;
+	background-color: white;
+	z-index:1;
+	transform:  skewX(25deg);
+	position:absolute;
+	left:200px;
+}
+
+#tag_line span{
+	z-index:2;
+	margin:2em;
+	position:absolute;
+}
+
+#tag_line button{
+	margin:1em;
+	background-color:#333333;
+	color:white;
+	font-size:1.2em;
+}
